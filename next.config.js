@@ -5,6 +5,7 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  assetPrefix: "/ge2340",
 };
 
 module.exports = nextConfig;
