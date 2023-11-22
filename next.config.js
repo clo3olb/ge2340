@@ -5,7 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/ge2340",
 };
 
 module.exports = nextConfig;
