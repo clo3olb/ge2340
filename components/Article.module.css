@@ -1,0 +1,22 @@
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+
+  padding-top: 0.5rem;
+
+  border-top: 3px solid #181818;
+}
+
+.article {
+  max-width: 900px;
+}
+
+.body {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.content {
+  flex: 3;
+}
