@@ -1,7 +1,7 @@
 import Article from "@/components/Article";
 import Script from "next/script";
 
-export default function Home() {
+export default function Demo() {
   return (
     <main>
       <Article title="Demo">
