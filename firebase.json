@@ -8,8 +8,12 @@
         "destination": "/index.html"
       },
       {
-        "source": "/:path",
-        "destination": "/:path.html"
+        "source": "/demo",
+        "destination": "/demo.html"
+      },
+      {
+        "source": "/references",
+        "destination": "/references.html"
       }
     ]
   }
