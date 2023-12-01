@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
+
+const repo = "ge2340";
+const assetPrefix = `/${repo}/`;
+const basePath = `/${repo}`;
+
 const nextConfig = {
   reactStrictMode: true,
   output: "export",
@@ -6,14 +11,9 @@ const nextConfig = {
     unoptimized: true,
   },
   distDir: "docs",
-  async rewrites() {
-    return [
-      {
-        source: "/:path*",
-        destination: "/ge2340/:path*",
-      },
-    ];
-  },
+
+  assetPrefix: assetPrefix,
+  basePath: basePath,
 };
 
 module.exports = nextConfig;
