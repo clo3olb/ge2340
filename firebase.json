@@ -2,7 +2,15 @@
   "hosting": {
     "public": "docs",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [],
-    "clearnUrls": true
+    "rewrites": [
+      {
+        "source": "/",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/:path",
+        "destination": "/:path.html"
+      }
+    ]
   }
 }
