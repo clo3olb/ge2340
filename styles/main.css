@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,700;0,900;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,400;0,700;0,900;1,400&display=swap");
 
 * {
   font: inherit;
@@ -14,6 +14,10 @@ body {
   padding: 0;
 }
 
+code {
+  font-family: "Fira Code", monospace;
+}
+
 html {
   font-family: "Montserrat", sans-serif !important;
   margin: 0;
@@ -21,14 +25,18 @@ html {
 }
 
 h1 {
-  font-size: 1.7rem;
+  font-size: 2rem;
+  font-weight: 800;
   line-height: 1.2;
   margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
 h2 {
   font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
 }
 
 p,
@@ -36,6 +44,7 @@ li {
   font-size: 1rem;
   line-height: 1.4;
   margin-bottom: 0.5rem;
+  margin-top: 0;
 }
 
 main {

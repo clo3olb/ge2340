@@ -1,7 +1,5 @@
 let faceApi, video, detections;
 
-console.log({ faceApi, video, detections });
-
 function setup() {
   const canvas = createCanvas(630, 440);
   canvas.parent("demo_canvas");
