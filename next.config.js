@@ -12,8 +12,8 @@ const nextConfig = {
   },
   distDir: "docs",
 
-  assetPrefix: assetPrefix,
-  basePath: basePath,
+  // assetPrefix: assetPrefix,
+  // basePath: basePath,
 };
 
 module.exports = nextConfig;

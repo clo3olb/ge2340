@@ -2,19 +2,6 @@
   "hosting": {
     "public": "docs",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/404.html"
-      },
-      {
-        "source": "/demo",
-        "destination": "/demo.html"
-      },
-      {
-        "source": "/",
-        "destination": "/index.html"
-      }
-    ]
+    "rewrites": []
   }
 }
