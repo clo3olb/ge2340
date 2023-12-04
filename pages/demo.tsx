@@ -20,15 +20,17 @@ export default function Demo() {
           video and the face detection results.
         </p>
         <div id="demo_canvas">
-          <Script
-            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"
-            strategy="lazyOnload"
-          />
+          <Script src="./demo_face_detection.js" strategy="beforeInteractive" />
           <Script
             src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
-            strategy="lazyOnload"
+            strategy="beforeInteractive"
+            defer
           />
-          <Script src="./demo_face_detection.js" strategy="lazyOnload" />
+          <Script
+            src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"
+            strategy="afterInteractive"
+            defer
+          />
         </div>
 
         <h1>Libraries Used</h1>
