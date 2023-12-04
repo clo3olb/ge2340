@@ -70,13 +70,10 @@ export default function Demo() {
           language="html"
         />
         <p>
-          Next, we will create a canvas to display the video and the face
-          detection results. We will also create a button to start the face
-          detection process.
-        </p>
-        <p>
-          Please refer to the following code snippet about the demo
-          implementation.
+          If you are done with the setup, you may copy the following code to
+          your HTML file. Please note that you may change the size of the canvas
+          by changing the width and height in the code. You may also change the
+          id of the canvas.
         </p>
         <Code
           code={`
