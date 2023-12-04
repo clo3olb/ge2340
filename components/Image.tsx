@@ -2,7 +2,9 @@ import Link from "next/link";
 import styles from "./Image.module.css";
 
 type Props = {
-  src?: string;
+  id?: string;
+  src: string;
+  caption?: string;
   author?: string;
   authorLink?: string;
   alt?: string;
@@ -18,10 +20,13 @@ function Image({
   alt,
   className,
   authorLink,
+  id,
+  caption,
 }: Props) {
   return (
-    <div className={`${styles.main} ${className}`}>
+    <div className={`${styles.main} ${className}`} id={id}>
       <img className={styles.img} src={src} alt={alt} />
+      {caption && <div className={styles.caption}>{caption}</div>}
       {author && (
         <div className={styles.caption}>
           Photo by{" "}
