@@ -160,7 +160,6 @@ function drawPart(feature, closed) {
           lineNumbers
         />
       </Article>
-      <h1>Demo of Face Recognition</h1>
     </main>
   );
 }

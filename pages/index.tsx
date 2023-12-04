@@ -44,12 +44,12 @@ export default function Home() {
         />
         <h2>Face Recognition Pipeline</h2>
         <p>
-          But how do these systems work? According to a recent study [3], the
-          pipeline of a face recognition system based on deep learning is
-          divided into several stages. First, the system detects the face region
-          (ROI) in the input image and aligns the face region coordinate. There
-          are two types of approaches to doing the face detection using deep
-          learning.
+          But how do these systems work? According to a recent study{" "}
+          <Link href="/references#reference_3">[3]</Link>, the pipeline of a
+          face recognition system based on deep learning is divided into several
+          stages. First, the system detects the face region (ROI) in the input
+          image and aligns the face region coordinate. There are two types of
+          approaches to doing the face detection using deep learning.
         </p>
         <p>
           The first one is region-based, which produces a set of typical object
@@ -66,13 +66,13 @@ export default function Home() {
           facial features from the image. To align the face and find the
           canonical coordinates, the facial key point is used in preprocessing.
           Finally, the system applies face matching to the facial feature stored
-          in the database [4]. It's important to note that to obtain accurate
-          predictions on unconstrained face images, the model for prediction
-          should be robust to avoid recognizing the wrong people. So,
-          researchers are continually working on improving the accuracy and
-          performance of these systems. Exciting stuff, right? It's amazing to
-          see how technology is advancing and making our lives easier in so many
-          different ways!
+          in the database <Link href="/references#reference_4">[4]</Link>. It's
+          important to note that to obtain accurate predictions on unconstrained
+          face images, the model for prediction should be robust to avoid
+          recognizing the wrong people. So, researchers are continually working
+          on improving the accuracy and performance of these systems. Exciting
+          stuff, right? It's amazing to see how technology is advancing and
+          making our lives easier in so many different ways!
         </p>
         <Image
           src="https://images.unsplash.com/photo-1584428018260-1a9bc0e15365?q=80&w=2811&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
