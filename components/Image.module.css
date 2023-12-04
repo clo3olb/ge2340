@@ -1,8 +1,5 @@
 .main {
   width: 100%;
-  height: 400px;
-
-  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -14,9 +11,14 @@
 }
 
 .caption {
-  width: 100%;
   font-size: 0.8rem;
   font-weight: 400;
-  text-align: right;
   color: #777;
+  width: 100%;
+  text-align: center;
+}
+
+.author_link {
+  color: inherit;
+  text-decoration: underline;
 }
