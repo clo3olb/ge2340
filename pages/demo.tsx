@@ -20,7 +20,10 @@ export default function Demo() {
           video and the face detection results.
         </p>
         <div id="demo_canvas">
-          <Script src="./demo_face_detection.js" strategy="beforeInteractive" />
+          <Script
+            src="./scripts/demo_face_detection.js"
+            strategy="beforeInteractive"
+          />
           <Script
             src="https://unpkg.com/ml5@latest/dist/ml5.min.js"
             strategy="beforeInteractive"
