@@ -1,5 +1,5 @@
 import styles from "./Article.module.css";
-import MainImage from "./MainImage";
+import Image from "./Image";
 import Sidebar from "./Sidebar";
 
 type Props = {
@@ -10,7 +10,6 @@ type Props = {
 function Article({ title, children }: Props) {
   return (
     <div className={styles.article}>
-      <MainImage />
       <div className={styles.title}>{title}</div>
       <div className={styles.body}>
         <Sidebar />
