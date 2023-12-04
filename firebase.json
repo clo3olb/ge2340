@@ -12,6 +12,10 @@
         "destination": "/demo.html"
       },
       {
+        "source": "/experiments",
+        "destination": "/experiments.html"
+      },
+      {
         "source": "/references",
         "destination": "/references.html"
       }
